@@ -1,15 +1,25 @@
 /* Display */
 
 .big-container{
+    width: 80%;
+    margin: 0 auto;
 
+    /* debug */
+    height: 20rem;
 }
 
 .small-container{
-
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* Element */
 
 a{
     text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
 }

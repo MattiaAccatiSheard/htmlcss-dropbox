@@ -25,8 +25,52 @@ header{
     border: dashed black 2px;
 }
 
+.nav-element{
+    display: inline-block;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: cadetblue;
+    margin-top: 5rem;
+    text-align: center;
+    padding-top: 2%;
+
+    /* debug */
+    height: 100%
+}
+
+.jumbotron-content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-text{
+    width: 25%;
+    border: dashed black 2px;
+
+    /* debug */
+    height: 20vh;
+}
+
+.jumbo-img{
+    width: 75%;
+    border: dashed black 2px;
+
+    /* debug */
+    height: 20vh;
+
+}
+
+
+
+
+
 /* Main */
 
+
 main{
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
